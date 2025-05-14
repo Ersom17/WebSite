@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, ShoppingBag, Truck, Home } from 'lucide-react';
+import { Menu, X,  Truck, Home } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
             to="/" 
             className="font-heading text-2xl md:text-3xl font-bold text-brown-900 flex items-center"
           >
-            <img src="./images/store.png" alt="Logo La Boutique dell’Usato" className="h-10 mr-7" />
+            <img src="/store.png" alt="Logo La Boutique dell’Usato" className="h-10 mr-7" />
             <span>La Boutique dell'Usato</span>
           </NavLink>
         </div>

@@ -28,37 +28,37 @@ interface GalleryImage {
 
 const galleryImages: GalleryImage[] = [
   {
-    src: "public/Imagine 1 .jpg",
+    src: "/Imagine 1 .jpg",
     alt: "Abbigliamento vintage unisex con camicie colorate, giacche retrò e pantaloni su grucce in un negozio second hand.",
     title: "Camicie, Giacche e Maglie Vintage da Uomo e Donna",
     description: "Selezione colorata di capi vintage casual e sartoriali."
   },
   {
-    src: "public/Imagine 3 .jpg",
+    src: "/Imagine 3 .jpg",
     alt: "Foulard vintage colorati in seta e cotone annodati in esposizione, disponibili a 4 CHF ciascuno in negozio second hand.",
     title: " Foulard Vintage in Seta, Cotone e Fantasie Colorate",
     description: "Foulard unici annodati"
   },
   {
-    src: "public/Imagine 4 .jpg",
+    src: "/Imagine 4 .jpg",
     alt: "Vetrina con orecchini e accessori vintage esposti su tessuto scuro, con cartellini dei prezzi visibili bassi. Varietà di stili: pendenti, etnici, dorati, in legno e con pietre.",
     title: "Orecchini e Bijoux Vintage",
     description: "Accessori originali in metallo, legno e perline."
   },
   {
-    src: "public/Imagine 5 .jpg",
+    src: "/Imagine 5 .jpg",
     alt: "Vestiti vintage da donna su stand con giacche, abiti e costumi in esposizione in un negozio second hand eco-friendly.",
     title: "Vestiti e Giacche Donna Vintage – Sconti e Occasioni",
     description: "Capi eleganti e casual a partire da 5 CHF."
   },
   {
-    src: "public/Imagine 6 .jpg",
+    src: "/Imagine 6 .jpg",
     alt: "Tavolo moderno con sedie nere circondato da quadri, ceramiche e oggetti vintage in esposizione in negozio d’antiquariato.",
     title: "Tavolo Moderno e Arredi Vintage con Quadri d’Arte",
     description: "Arredo misto tra design moderno e arte classica."
   },
   {
-    src: "public/Imagine 67.jpg",
+    src: "/Imagine 67.jpg",
     alt: " Poltrone vintage in velluto con borsa in paglia decorata, circondate da quadri d’arte e arredamento retrò in negozio di seconda mano.",
     title: "Poltrone in Velluto e Borsa in Paglia Decorata",
     description: "Arredo vintage elegante con borsa etnica."

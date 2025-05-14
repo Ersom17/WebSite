@@ -83,7 +83,7 @@ const Home = () => {
                 <div className="lg:flex-1">
                   <div className="aspect-square overflow-hidden rounded-lg bg-vintage-gold/10">
                     <img
-                      src=".\images\-georgina-casa-oggetti-veracruz-figli-qoa0.jpg"
+                      src=".\-georgina-casa-oggetti-veracruz-figli-qoa0.jpg"
                       alt="Georgina Bernardi - Owner placeholder"
                       className="w-full h-full object-cover"
                     />
