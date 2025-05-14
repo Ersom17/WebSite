@@ -99,11 +99,7 @@ const Footer = () => {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link to="/boutique" className="hover:text-emerald-300 transition-colors">
-                  Boutique
-                </Link>
-              </li>
+             
               <li>
                 <Link to="/moving-services" className="hover:text-emerald-300 transition-colors">
                   Traslochi

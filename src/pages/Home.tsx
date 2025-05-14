@@ -27,11 +27,11 @@ const Home = () => {
             Scoprite tesori unici del passato, di provenienza etica e curati con amore.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link to="/boutique" className="btn btn-primary text-center">
-              Esplora la nostra collezione
-              </Link>
+              <a href="#store-info" className="btn btn-primary text-center">
+                Esplora la nostra collezione
+              </a>
               <Link to="/moving-services" className="btn btn-secondary bg-white/20 border-white text-white text-center">
-              Servizi di trasloco
+                Servizi di trasloco
               </Link>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Home = () => {
                   <h3 className="font-heading text-3xl mb-2">Georgina Bernardi</h3>
                   <p className="text-vintage-primary font-medium mb-4">Owner Curator</p>
                   <p className="text-vintage-text/80 mb-6">
-                  Georgina ti accoglie col sorriso nella sua Boutique dell’Usato a Muralto, dove ogni oggetto ha una storia e niente si butta. Con passione e calore, trasforma il vintage in qualcosa di vivo, unico e tutto da scoprire. Passa a curiosare!
+                  Georgina ti accoglie col sorriso nella sua Boutique dell’Usato a Muralto, dove ogni oggetto ha una storia e niente si butta. Con passione e calore, trasforma il vintage in qualcosa di vivo, unico e tutto da scoprire.  <span className="text-emerald-700">Entra a curiosare</span>!
                   </p>
                   <div className="flex gap-4">
 
@@ -64,7 +64,7 @@ const Home = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-vintage-primary hover:text-vintage-primary/80 transition-colors"
-                      aria-label="Visit Marco's Instagram"
+                      aria-label="Visit Georgina's Instagram"
                     >
                       <Facebook size={26} />
                     </a>
@@ -74,7 +74,7 @@ const Home = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-vintage-primary hover:text-vintage-primary/80 transition-colors"
-                      aria-label="Visit Marco's Instagram"
+                      aria-label="Visit Georgina's Instagram"
                     >
                       <Instagram size={26} />
                     </a>
@@ -84,7 +84,7 @@ const Home = () => {
                   <div className="aspect-square overflow-hidden rounded-lg bg-vintage-gold/10">
                     <img
                       src=".\images\-georgina-casa-oggetti-veracruz-figli-qoa0.jpg"
-                      alt="Marco Rossi - Owner placeholder"
+                      alt="Georgina Bernardi - Owner placeholder"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -103,7 +103,7 @@ const Home = () => {
 
 
       {/* Services Overview */}
-      <section className="section-padding bg-cream-dark">
+      <section className="section-padding bg-cream-dark pt-8">
         <div className="container-custom">
           <div className="text-center mb-14">
             <h2 className="section-title">I nostri servizi</h2>
@@ -158,145 +158,78 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Items */}
-      <section className="section-padding">
+      
+      {/* Store Information */}
+      <section id="store-info" className="bg-cream-dark py-16 pb-5" >
         <div className="container-custom">
-          <div className="text-center mb-14">
-            <h2 className="section-title">Tesori in evidenza</h2>
-            <p className="section-subtitle max-w-2xl mx-auto">
-            Ogni oggetto ha una storia da raccontare
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Featured Item 1 */}
-            <div className="vintage-border rounded-lg overflow-hidden group">
-              <div className="relative overflow-hidden">
-                <img 
-                  src="https://images.pexels.com/photos/2275294/pexels-photo-2275294.jpeg" 
-                  alt="Vintage Cabinet"
-                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute top-4 right-4 bg-emerald-700 text-white text-sm px-3 py-1 rounded-full">
-                  -60%
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="font-heading text-xl font-semibold mb-2">Mobile in rovere antico</h3>
-                <div className="flex justify-between items-center mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="font-heading text-3xl md:text-4xl mb-6 font-bold">
+              Visitate la nostra boutique
+              </h2>
+              <p className="text-brown-700 mb-8">
+              Il nostro inventario è in continua evoluzione, in quanto troviamo sempre nuovi tesori.
+              Per avere la selezione più aggiornata, vi invitiamo a visitare il nostro negozio e ad esplorare di persona.
+              Il nostro personale esperto è pronto ad aiutarvi a trovare il pezzo perfetto.
+              </p>
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start">
+                  <div className="mt-1 mr-4 text-emerald-700">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
                   <div>
-                    <span className="text-brown-400 line-through text-sm">CHF 620</span>
-                    <span className="text-emerald-700 font-bold ml-2">CHF 248</span>
-                  </div>
-                  <div className="flex text-yellow-500">
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
+                    <h4 className="font-semibold">Location</h4>
+                    <p>Via Luigi Canonica 17, 6900 Lugano, Switzerland</p>
                   </div>
                 </div>
-                <p className="text-brown-600 mb-4">
-                  Beautifully preserved oak cabinet with original brass hardware, circa 1920s.
-                </p>
-                <Link 
-                  to="/boutique" 
-                  className="block text-center py-2 border border-emerald-700 text-emerald-700 rounded hover:bg-emerald-50 transition-colors"
-                >
-                  View Details
-                </Link>
+                <div className="flex items-start">
+                  <div className="mt-1 mr-4 text-emerald-700">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold">Hours</h4>
+                    <p>Monday - Friday: 9:30 AM - 6:30 PM</p>
+                    <p>Saturday: 10:00 AM - 4:00 PM</p>
+                    <p>Sunday: Closed</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="mt-1 mr-4 text-emerald-700">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold">Contact</h4>
+                    <p>Phone: +41 76 526 92 00</p>
+                    
+                  </div>
+                </div>
               </div>
             </div>
-            
-            {/* Featured Item 2 */}
-            <div className="vintage-border rounded-lg overflow-hidden group">
-              <div className="relative overflow-hidden">
-                <img 
-                  src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg" 
-                  alt="Mid-Century Armchair"
-                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute top-4 right-4 bg-emerald-700 text-white text-sm px-3 py-1 rounded-full">
-                  -45%
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="font-heading text-xl font-semibold mb-2">Mid-Century Armchair</h3>
-                <div className="flex justify-between items-center mb-4">
-                  <div>
-                    <span className="text-brown-400 line-through text-sm">CHF 450</span>
-                    <span className="text-emerald-700 font-bold ml-2">CHF 249</span>
-                  </div>
-                  <div className="flex text-yellow-500">
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} stroke="currentColor" fill="none" />
-                  </div>
-                </div>
-                <p className="text-brown-600 mb-4">
-                  Elegant mid-century modern armchair with newly reupholstered green velvet.
-                </p>
-                <Link 
-                  to="/boutique" 
-                  className="block text-center py-2 border border-emerald-700 text-emerald-700 rounded hover:bg-emerald-50 transition-colors"
-                >
-                  View Details
-                </Link>
-              </div>
+            <div className="rounded-lg overflow-hidden vintage-shadow">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5525.716437700003!2d8.798239276654362!3d46.173477985835525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4785c9d49246051b%3A0x9286b4148bbd448e!2sLa%20Boutique%20dell&#39;Usato!5e0!3m2!1sen!2sch!4v1745747161825!5m2!1sen!2sch" 
+                width="100%" 
+                height="450" 
+                style={{ border: 0 }} 
+                allowFullScreen 
+                loading="lazy"
+                title="Store Location"
+              ></iframe>
             </div>
-            
-            {/* Featured Item 3 */}
-            <div className="vintage-border rounded-lg overflow-hidden group">
-              <div className="relative overflow-hidden">
-                <img 
-                  src="https://images.pexels.com/photos/2762247/pexels-photo-2762247.jpeg" 
-                  alt="Vintage Pendant Lamp"
-                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute top-4 right-4 bg-emerald-700 text-white text-sm px-3 py-1 rounded-full">
-                  -30%
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="font-heading text-xl font-semibold mb-2">Vintage Pendant Lamp</h3>
-                <div className="flex justify-between items-center mb-4">
-                  <div>
-                    <span className="text-brown-400 line-through text-sm">CHF 180</span>
-                    <span className="text-emerald-700 font-bold ml-2">CHF 126</span>
-                  </div>
-                  <div className="flex text-yellow-500">
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                  </div>
-                </div>
-                <p className="text-brown-600 mb-4">
-                  Hand-blown glass pendant lamp with brass accents, restored and rewired.
-                </p>
-                <Link 
-                  to="/boutique" 
-                  className="block text-center py-2 border border-emerald-700 text-emerald-700 rounded hover:bg-emerald-50 transition-colors"
-                >
-                  Visualizza dettagli
-                </Link>
-              </div>
-            </div>
-          </div>
-          
-          <div className="text-center mt-12">
-            <Link to="/boutique" className="btn btn-primary">
-            Visualizza tutti gli articoli
-            </Link>
           </div>
         </div>
       </section>
 
       {/* Testimonials */}
-      <section className="section-padding wood-texture">
+      <section className="section-padding wood-texture pt-18">
         <div className="container-custom">
           <div className="text-center mb-14">
             <h2 className="section-title">Cosa dicono i nostri clienti</h2>
@@ -383,7 +316,7 @@ const Home = () => {
         <div className="container-custom">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">
-              Ready to Transform Your Space?
+              Pronto a transformare il tuo spazio?
             </h2>
             <p className="text-xl mb-10">
             Visitate la nostra boutique per scoprire pezzi unici o contattateci per un servizio di trasloco professionale.
@@ -392,9 +325,9 @@ const Home = () => {
               <Link to="/contact" className="btn bg-white text-emerald-700 hover:bg-cream">
               Contatto
               </Link>
-              <Link to="/boutique" className="btn border-2 border-white hover:bg-emerald-800">
+             {/* <Link to="/boutique" className="btn border-2 border-white hover:bg-emerald-800">
               Scopri la boutique
-              </Link>
+              </Link>*/}
             </div>
           </div>
         </div>

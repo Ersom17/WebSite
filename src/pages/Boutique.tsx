@@ -314,6 +314,10 @@ const Boutique = () => {
           </div>
         </div>
       </section>
+
+
+
+      
     </div>
   );
 };

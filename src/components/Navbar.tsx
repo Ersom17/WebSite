@@ -19,10 +19,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header 
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white py-2' : 'bg-transparent py-4'
-      }`}
+    <header
+      className="fixed w-full top-0 z-50 transition-all duration-300"
+      style={{
+      backgroundColor: scrolled ? 'rgb(246, 241, 231)' : 'transparent',
+      paddingTop: scrolled ? '0.5rem' : '1rem',
+      paddingBottom: scrolled ? '0.5rem' : '1rem',
+      }}
     >
       <div className="w-full flex justify-between items-center px-8">
         <div className="flex items-center">
@@ -40,15 +43,15 @@ const Navbar = () => {
           <NavLink to="/" className={({isActive}) => isActive ? 'nav-link-active' : 'nav-link'}>
             {t('nav.home')}
           </NavLink>
-          <NavLink to="/boutique" className={({isActive}) => isActive ? 'nav-link-active' : 'nav-link'}>
+          {/*<NavLink to="/boutique" className={({isActive}) => isActive ? 'nav-link-active' : 'nav-link'}>
             {t('nav.boutique')}
-          </NavLink>
+          </NavLink>*/}
           <NavLink to="/moving-services" className={({isActive}) => isActive ? 'nav-link-active' : 'nav-link'}>
             {t('nav.movingServices')}
           </NavLink>
-          <NavLink to="/donate" className={({isActive}) => isActive ? 'nav-link-active' : 'nav-link'}>
+         {/* <NavLink to="/donate" className={({isActive}) => isActive ? 'nav-link-active' : 'nav-link'}>
             {t('nav.donate')}
-          </NavLink>
+          </NavLink>*/}
           <NavLink to="/contact" className={({isActive}) => isActive ? 'nav-link-active' : 'nav-link'}>
             {t('nav.contact')}
           </NavLink>
@@ -90,7 +93,8 @@ const Navbar = () => {
             <Home className="mr-3" size={22} />
             {t('nav.home')}
           </NavLink>
-          <NavLink 
+          
+         {/* <NavLink 
             to="/boutique"
             onClick={() => setIsOpen(false)}
             className={({isActive}) => 
@@ -99,7 +103,9 @@ const Navbar = () => {
           >
             <ShoppingBag className="mr-3" size={22} />
             {t('nav.boutique')}
-          </NavLink>
+          </NavLink>*/}
+
+
           <NavLink 
             to="/moving-services"
             onClick={() => setIsOpen(false)}

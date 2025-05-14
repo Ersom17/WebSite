@@ -28,40 +28,40 @@ interface GalleryImage {
 
 const galleryImages: GalleryImage[] = [
   {
-    src: "https://images.unsplash.com/photo-1567538096621-38d2284b23ff",
-    alt: "Vintage furniture in store",
-    title: "Angolo Salotto",
-    description: "Mobili restaurati degli anni '50 perfetti per il tuo salotto."
+    src: "public/Imagine 1 .jpg",
+    alt: "Abbigliamento vintage unisex con camicie colorate, giacche retrò e pantaloni su grucce in un negozio second hand.",
+    title: "Camicie, Giacche e Maglie Vintage da Uomo e Donna",
+    description: "Selezione colorata di capi vintage casual e sartoriali."
   },
   {
-    src: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
-    alt: "A living room with antique furniture",
-    title: "Collezione Classica",
-    description: "Pezzi unici dal fascino senza tempo."
+    src: "public/Imagine 3 .jpg",
+    alt: "Foulard vintage colorati in seta e cotone annodati in esposizione, disponibili a 4 CHF ciascuno in negozio second hand.",
+    title: " Foulard Vintage in Seta, Cotone e Fantasie Colorate",
+    description: "Foulard unici annodati"
   },
   {
-    src: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
-    alt: "Vintage cabinet with decorative items",
-    title: "Oggettistica",
-    description: "Complementi d'arredo che raccontano una storia."
+    src: "public/Imagine 4 .jpg",
+    alt: "Vetrina con orecchini e accessori vintage esposti su tessuto scuro, con cartellini dei prezzi visibili bassi. Varietà di stili: pendenti, etnici, dorati, in legno e con pietre.",
+    title: "Orecchini e Bijoux Vintage",
+    description: "Accessori originali in metallo, legno e perline."
   },
   {
-    src: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
-    alt: "Vintage decorative items",
-    title: "Ceramiche Antiche",
-    description: "Arte e tradizione in pezzi unici selezionati."
+    src: "public/Imagine 5 .jpg",
+    alt: "Vestiti vintage da donna su stand con giacche, abiti e costumi in esposizione in un negozio second hand eco-friendly.",
+    title: "Vestiti e Giacche Donna Vintage – Sconti e Occasioni",
+    description: "Capi eleganti e casual a partire da 5 CHF."
   },
   {
-    src: "https://images.unsplash.com/photo-1577722422764-76f8cba3344e",
-    alt: "Antique furniture with books",
-    title: "Libreria Vintage",
-    description: "Scaffali e librerie dal fascino retrò."
+    src: "public/Imagine 6 .jpg",
+    alt: "Tavolo moderno con sedie nere circondato da quadri, ceramiche e oggetti vintage in esposizione in negozio d’antiquariato.",
+    title: "Tavolo Moderno e Arredi Vintage con Quadri d’Arte",
+    description: "Arredo misto tra design moderno e arte classica."
   },
   {
-    src: "https://images.unsplash.com/photo-1595428774223-ef52624120d2",
-    alt: "Vintage desk and chair",
-    title: "Spazio Lavoro",
-    description: "Arredi per ufficio dallo stile ricercato."
+    src: "public/Imagine 67.jpg",
+    alt: " Poltrone vintage in velluto con borsa in paglia decorata, circondate da quadri d’arte e arredamento retrò in negozio di seconda mano.",
+    title: "Poltrone in Velluto e Borsa in Paglia Decorata",
+    description: "Arredo vintage elegante con borsa etnica."
   }
 ];
 
